@@ -35,7 +35,7 @@
   width: 100%;
   height: 100%;
   flex: 1;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 footer {
@@ -164,6 +164,11 @@ footer button:hover {
   opacity: 0.2;
   font-size: 3rem;
   animation: spin 1s linear infinite;
+}
+
+.imageContainer{
+  width: 100vw;
+  height: 100vh;
 }
 
 @keyframes spin {
